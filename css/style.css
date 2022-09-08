@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+html,
+body{
+    width: 100%;
+
+}
+
+body{
+    margin: 0;
+    font-size: sans-sarif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    font-family: 'roboto';
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 400px;
+    background-color:#C4C4C4;;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+   
+
+
+}
+
+header nav {
+    text-align: center;
+}
+
+nav  a{
+
+    width: 150px;
+    display: flex;
+    margin:20px;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 20px;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    
+  
+}
+
+a:hover{
+    color: chocolate;
+}
+
+body{
+    font-size: 20px;
+}
+
+
+main{
+flex: auto;
+padding: 0.8em 0.3em;
+row-gap: 80px;
+box-sizing: content-box;
+display: flex;
+flex-direction: column;
+min-width: 320px;
+max-width: 1024px;
+align-self: center;
+
+}
+
+h2{
+    padding: 35px;
+}
+
+ 
+
+@media(min-width:1024px){
+    main{
+        gap:20px;;
+        flex-direction: row;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+.card{
+    width: 400px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    padding-top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#f3f3f3 ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.card{
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.card img{
+border-radius: 100px;
+filter:drop-shadow( 0px 4px 4px rgba(0,0,0,25))
+}
+
+.card p{
+margin-top: 30px;
+padding: 0 30px;
+}
+
+.card a{
+display: block;
+margin: 100px 23px;
+padding: 16px 30px;
+color: white;
+text-decoration: none;
+background-color:#00669F ;
+}
+
+.praias{
+background-image: url(../imagens/praias.jpg);
+   
+}
+
+.negocios{
+background-image: url(../imagens/negocios.jpg);
+       
+}
+
+.cultura{
+    background-image: url(../imagens/cultura.jpg);
+           
+    }
+    
+
+    .video_youtube{
+        text-align: center;
+    }
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#C4C4C4;;
+    padding: 16px 24px;
+    color: #FFF9F9;
+    align-items: center;
+}
+
+footer img {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+   
+}
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.linkedin{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.linkedin:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.github{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.github:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
