@@ -92,6 +92,14 @@ h2{
     padding: 35px;
 }
 
+.video_youtube iframe{
+    border-radius: 20px 20px;
+    width:400px;
+    height:534px;
+    padding-bottom: 60px;
+
+}
+
  @media(min-width:1024px){
     
  }
@@ -131,9 +139,7 @@ h2{
       
     }
 
-    header nav {
-        text-align: none;
-    }
+   
 
     nav{
         display:flex;
@@ -141,10 +147,7 @@ h2{
        
     }
 
-    .img_logo img {
-        display: none;
-        
-    }
+  
 
     .banner {
         display: block;
@@ -155,6 +158,14 @@ h2{
 
     .banner img{
         width: 100%;
+    }
+
+    .video_youtube iframe{
+        width:76%;
+        height:534px;
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 60px;
+       
     }
 }
 
@@ -175,7 +186,7 @@ h2{
     text-align: center;
     background-color:#f3f3f3 ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 16px 16px 16px 16px;
 
 }
 
