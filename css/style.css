@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     font-family: 'roboto';
+  
 }
 
 html,
@@ -35,6 +36,15 @@ header{
    
 
 
+}
+
+.banner{
+    display: none;
+}
+
+.img_logo img {
+    width:200px;
+    border-radius: 20px;
 }
 
 header nav {
@@ -82,15 +92,73 @@ h2{
     padding: 35px;
 }
 
- 
+ @media(min-width:1024px){
+    
+ }
 
 @media(min-width:1024px){
     main{
-        gap:20px;;
+        gap:20px;
         flex-direction: row;
         padding-bottom: 10px;
     }
+
+    header{
+        font-family: 'roboto';
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 150px;
+        background-color:#C4C4C4;;
+        align-items: center;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+     
+    }
+
+    nav  a{
+       
+        width: 150px;
+        margin:20px;
+        border:1px solid black;
+        border-radius: 20px;
+        padding:10px;
+        color:white;
+        text-decoration: none;
+       
+        
+      
+    }
+
+    header nav {
+        text-align: none;
+    }
+
+    nav{
+        display:flex;
+        flex-direction: row;
+       
+    }
+
+    .img_logo img {
+        display: none;
+        
+    }
+
+    .banner {
+        display: block;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .banner img{
+        width: 100%;
+    }
 }
+
+
 
 
 
