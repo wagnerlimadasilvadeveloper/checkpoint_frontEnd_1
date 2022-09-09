@@ -2,13 +2,13 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'roboto';
+    font-family: 'roboto' sans-serif;
   
 }
 
 html,
 body{
-    width: 100%;
+    width: auto;
 
 }
 
