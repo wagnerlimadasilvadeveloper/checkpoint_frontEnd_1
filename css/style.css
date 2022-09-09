@@ -118,7 +118,7 @@ h2{
         font-family: 'roboto';
         display: flex;
         flex-direction: row;
-        width: 100vw;
+     
         height: 150px;
         background-color:#C4C4C4;;
         align-items: center;
